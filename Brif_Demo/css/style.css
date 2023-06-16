@@ -1,0 +1,57 @@
+body{
+    font-family :Georgia, 'Times New Roman', Times, serif'
+}
+header{
+    color: #17594A;
+    /* background-color: #F7FFE5; */
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#input-field{
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid #17594A;
+}
+#input-field:focus{
+    border: 2px solid #8EAC50;
+    background-color:#F7FFE5 ;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #17594A;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+}
+.input-button-section{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 10px;
+}
+button{
+    background-color:#8EAC50;
+    color: white;
+    font-size: 15px;
+    padding:8px 8px ;
+    border: 2px solid #17594A;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:focus{
+    background-color:#17594A;
+    border: 2px solid #8EAC50;
+}
+button:hover{
+    color: black;
+}
+button:active{
+    transform: translateY(1px);
+}

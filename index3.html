@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        #avanza{
+            color: orange;
+        }
+        #alya{
+            color: brown;
+        }
+        a[target]{
+            color:green;
+        }
+        /* div{
+            width: 100px;
+            height: 100px;
+            background:linear-gradient(blue,yellow);
+            background-image: url("https://image.gambarpng.id/pngs/gambar-transparent-cute-bread-cartoon-illustration_45077.png");
+        } */
+        h3{
+            font-family: "impact", arial;
+            font-style: italic;
+
+        }
+        /* Flexbox */
+        .container{
+            width: 300px;
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .container div{
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: aquamarine;
+            border: 2px solid;
+            background-color: green;
+        }
+        /* Grid */
+        .wrapper{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-gap:10px;
+        }
+        .box{
+            background-color: grey;
+            color: blue;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 150%;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+<body>
+    <!-- <h1 style="color: red;">Hello World</h1>
+    <p id="avanza">ini avanza</p>
+    <p id="alya">Ini alya</p> -->
+
+    <!-- <a href="https://www.3schools.com">W3School</a>
+    <a href="https://google.com" target="_top">Google</a>
+    <a href="https://yahoo.com" target="_blank">Yahoo</a> -->
+
+    <!-- <div></div> -->
+
+    <!-- <h3>Haii kamu</h3> -->
+
+    <!-- Flexbox -->
+    <nav class="container">
+        <div class="home">Home</div>
+        <div class="search">Search</div>
+        <div class="logout">Logout</div>
+    </nav>
+
+    <!-- Grid -->
+    <div class="wrapper">
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+        <div class="box">D</div>
+        <div class="box">E</div>
+        <div class="box">F</div>
+        <div class="box">G</div>
+    </div>
+</body>
+</html>

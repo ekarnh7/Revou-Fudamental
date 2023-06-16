@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator-Grid</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-gap:5px;
+            grid-template-columns: 50px 50px 50px 50px;
+        }
+        input{
+            grid-column: 1/span 4;
+            border: 2px solid black;
+        }
+        button{
+            width: 100%;
+            border: none;
+            border: 2px solid black;
+        }
+        .red{
+            grid-column: 1/span 2;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Kalkulator-Grid</h2>
+    <div class="grid-container">
+        <input type="text"name="display">
+        <button class="red">AC</button>
+        <button>C</button>
+        <button>*</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>+</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>
+        <button>+/-</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+    </div>
+</body>
+</html>
