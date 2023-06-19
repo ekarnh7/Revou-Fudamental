@@ -37,3 +37,11 @@ var angkaPanah=(angka5, angka6)=>{
     return angka5+angka6;
 }
 angkaPanah(30,30);
+
+// DOM
+
+function klik(){
+    let namaDepan=document.getElementById("nama-depan").value;
+    let namaBelakang=document.getElementById("nama-belakang").value;
+    console.log(namaDepan + " " + namaBelakang)
+}
